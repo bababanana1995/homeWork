@@ -15,7 +15,7 @@ const MessageSender = (props: any) => {
 
     useEffect(() => {
         if (textareaRef?.current) {
-            textareaRef.current.style.height = '0px'
+            textareaRef.current.style.height = '10px'
             textareaRef.current.style.height = textareaRef.current.scrollHeight + 'px'
         }
     }, [text])
@@ -52,7 +52,7 @@ const MessageSender = (props: any) => {
                     ref={textareaRef}
 
                     title={'Shift+Enter for send'}
-                    placeholder={'Type your message'}
+                    placeholder={'  Type your message'}
                     value={text}
 
                     onChange={onChange}
@@ -65,7 +65,7 @@ const MessageSender = (props: any) => {
                     onClick={addMessage}
                 >
                     {/*текст кнопки могут изменить студенты*/}
-                    Send
+                    ЖМЯК
                     {/**/}
                 </button>
             </div>

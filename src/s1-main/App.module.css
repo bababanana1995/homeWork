@@ -1,11 +1,16 @@
+
 .App {
+    width: 1280px;
     --header_height: 60px;
 }
-
+.mess_friend{
+    display: flex;
+}
 .hw {
-
+    border-top: 1px solid black;
 }
 
 .hwTitle {
-
+    margin:130px 0 10px 70px ;
+font-size: 22px;
 }
