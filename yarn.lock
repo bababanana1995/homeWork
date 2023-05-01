@@ -10563,6 +10563,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"homework@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "homework@workspace:."
+  dependencies:
+    "@emotion/react": 11.10.4
+    "@emotion/styled": 11.10.4
+    "@mui/material": 5.10.6
+    "@testing-library/jest-dom": 5.16.5
+    "@testing-library/react": 13.3.0
+    "@testing-library/user-event": 13.5.0
+    "@types/jest": 27.5.2
+    "@types/node": 16.11.56
+    "@types/react": 18.0.17
+    "@types/react-dom": 18.0.6
+    "@types/uuid": 8.3.4
+    axios: 0.27.2
+    g-pages: ^0.1.1
+    gh-pages: ^5.0.0
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-redux: 8.0.4
+    react-router-dom: 6.4.3
+    react-scripts: 5.0.1
+    redux: 4.2.0
+    typescript: 4.7.4
+    uuid: 9.0.0
+    web-vitals: 2.1.4
+  languageName: unknown
+  linkType: soft
+
 "hoopy@npm:^0.1.4":
   version: 0.1.4
   resolution: "hoopy@npm:0.1.4"
@@ -10813,36 +10843,6 @@ __metadata:
   checksum: 9c7a74a2827f9294c009266c82031030eae811ca87b0da3dceb8d6071b9bde22c9f3daef0469c3c533cc67a97d8a167cd9fc0389350e5f415f61a79b171ded16
   languageName: node
   linkType: hard
-
-"hws2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "hws2@workspace:."
-  dependencies:
-    "@emotion/react": 11.10.4
-    "@emotion/styled": 11.10.4
-    "@mui/material": 5.10.6
-    "@testing-library/jest-dom": 5.16.5
-    "@testing-library/react": 13.3.0
-    "@testing-library/user-event": 13.5.0
-    "@types/jest": 27.5.2
-    "@types/node": 16.11.56
-    "@types/react": 18.0.17
-    "@types/react-dom": 18.0.6
-    "@types/uuid": 8.3.4
-    axios: 0.27.2
-    g-pages: ^0.1.1
-    gh-pages: ^5.0.0
-    react: 18.2.0
-    react-dom: 18.2.0
-    react-redux: 8.0.4
-    react-router-dom: 6.4.3
-    react-scripts: 5.0.1
-    redux: 4.2.0
-    typescript: 4.7.4
-    uuid: 9.0.0
-    web-vitals: 2.1.4
-  languageName: unknown
-  linkType: soft
 
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
