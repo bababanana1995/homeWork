@@ -10,8 +10,7 @@
 }
 
 .low {
-    --color: #0c2;
-}
+    --color: #0c2;}
 
 .high {
     --color: #c00;
@@ -22,7 +21,6 @@
 }
 
 .button {
-
     padding: 5px 15px 5px 15px;
     /*margin-left: 70px ;*/
     background: transparent;
@@ -54,5 +52,7 @@
     display: flex;
     gap: 17px;
     flex-wrap: wrap;
+    flex-direction: column;
     max-width: 450px;
+    max-height: 200px;
 }

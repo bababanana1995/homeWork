@@ -43,6 +43,7 @@ function Affairs(props: AffairsPropsType) {
                 >
                     All
                 </button>
+
                 <button
                     id={'hw2-button-high'}
                     onClick={setHigh}
@@ -65,6 +66,7 @@ function Affairs(props: AffairsPropsType) {
                     Low
                 </button>
             </div>
+
             <div className={s.affairs}>{mappedAffairs}</div>
         </div>
     )

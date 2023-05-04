@@ -23,6 +23,7 @@ function Affair(props: AffairPropsType) {
             id={'hw2-affair-' + props.affair._id}
             className={affairClass}
         >
+
             <div id={'hw2-name-' + props.affair._id} className={nameClass}>
                 {/*создаёт студент*/}
                 {props.affair.name}
