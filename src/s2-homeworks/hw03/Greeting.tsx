@@ -36,6 +36,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 </span>
             </div>
 
+
             <div className={s.inputAndButtonContainer}>
                 <div>
                     <input
