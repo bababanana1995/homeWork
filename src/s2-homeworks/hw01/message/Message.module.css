@@ -1,6 +1,9 @@
 .message {
     padding: 10px 0 23px 20px;
+    display: flex;
+    flex-direction: column;
     text-align: end;
+    margin: 10px 70px 0 10px;
 }
 
 .imageAndText {
@@ -10,8 +13,10 @@
 }
 
 .imageAndText img {
-    margin: 10px 70px 0 10px;
+
     width: 48px;
+    height: 48px;
+    align-self: end;
 }
 
 .text {
@@ -54,12 +59,10 @@
 }
 
 .time {
-    margin-top: 5px;
-    position: absolute;
-    width: 26px;
+    /*align-self: end;*/
+    padding-right: 10px;
     height: 12px;
-    left: 1173px;
-
+    text-align: end;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;

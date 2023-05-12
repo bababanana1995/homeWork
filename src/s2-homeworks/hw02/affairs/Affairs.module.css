@@ -48,7 +48,7 @@
 }
 
 .affairs {
-    margin: 20px 20px 187px 70px;
+    margin: 20px 20px 0 70px;
     display: flex;
     gap: 17px;
     flex-wrap: wrap;

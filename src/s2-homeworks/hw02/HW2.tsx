@@ -56,7 +56,6 @@ export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] =
 }
 
 function HW2() {
-    debugger
     const [affairs, setAffairs] = useState<AffairType[]>(defaultAffairs) // need to fix any
     const [filter, setFilter] = useState<FilterType>('all')
 

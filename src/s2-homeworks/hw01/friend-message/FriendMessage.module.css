@@ -10,8 +10,9 @@
 
 .friendImageAndText img {
     margin-top: 10px;
-
+    height: 48px;
     width: 48px;
+    align-self: end;
 
 }
 
@@ -53,8 +54,9 @@
 
 .friendTime {
     margin-top: 5px;
-    position: absolute;
-    width: 26px;
+    width: 48px;
+    text-align: center;
+    justify-content: end;
     height: 12px;
     left: 80px;
     font-family: 'Montserrat', sans-serif;
