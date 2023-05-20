@@ -7389,6 +7389,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"deploy@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "deploy@npm:1.0.3"
+  bin:
+    deploy: deploy
+  checksum: c3ebaff8e92b7e330956553309618787c1c7f8776fe3683e766682b7bc91bd19b4410a60405ef625d26b19c7062a4a0629ab3044f1da3bb4c06f5ec97e385dea
+  languageName: node
+  linkType: hard
+
 "destroy@npm:1.2.0":
   version: 1.2.0
   resolution: "destroy@npm:1.2.0"
@@ -10579,6 +10588,7 @@ __metadata:
     "@types/react-dom": 18.0.6
     "@types/uuid": ^9.0.1
     axios: 0.27.2
+    deploy: ^1.0.3
     g-pages: ^0.1.1
     gh-pages: ^5.0.0
     react: 18.2.0
