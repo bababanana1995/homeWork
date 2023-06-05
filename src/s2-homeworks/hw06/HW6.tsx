@@ -20,7 +20,8 @@ const HW6 = () => {
     const restore = () => {
         // делают студенты
 
-    }
+       setValue(restoreState('hw6-editable-span-value', value))
+   }
 
     return (
         <div id={'hw6'}>
@@ -35,7 +36,7 @@ const HW6 = () => {
                         onChangeText={setValue}
                         spanProps={{
                             id: 'hw6-editable-span',
-                            defaultText: 'enter text...',
+                            defaultText: 'Edit text...',
                         }}
                     />
                 </div>
