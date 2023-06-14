@@ -1,5 +1,5 @@
 .container {
-    margin: 40px;
+    margin-top: 32px;
     display: flex;
-justify-content: space-around;
+/*justify-content: space-around;*/
 }
