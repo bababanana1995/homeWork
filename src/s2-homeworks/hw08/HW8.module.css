@@ -1,23 +1,48 @@
 .item {
+
 }
 
-.item:last-of-type {
+.item:first-child {
+
+
 }
 
 .users {
-}
 
+}
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 33px 0 18px 238px;
 }
-
 .container {
+
 }
 
 .thead {
+    background: #E5E5E5;
+    width: 62px;
+    height: 16px;
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+
+    color: #000000;
 }
 
 .nameCol {
+
 }
 
 .ageCol {
+padding-left: 218px;
+
+}
+.ageItem{
+
+    padding-left: 230px;
+
 }
